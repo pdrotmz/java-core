@@ -4,6 +4,8 @@ public class Variables {
 
     public static void main(String[] args) {
 
+        // TODO: Document everything using examples and make it understandable
+
         int age = 22;
         int year = 2025;
         int quantity = 1;
@@ -66,5 +68,21 @@ public class Variables {
         System.out.println("I'm " + name + " and I'm " + age + " years old!");
         System.out.println("My gpa is " + gpa);
         System.out.println("My average grade is " + grade);
+
+        System.out.println("---------------- CHALLENGER ----------------");
+        String newName = "Pedro Tomáz";
+        int gta = 6;
+        double pi = 3.14159;
+        char gender = 'M';
+        boolean isAdmin = true;
+
+
+        if(isAdmin) {
+            System.out.println("Only if you're admin, you're seeing this");
+            System.out.println("My name is " + newName + " I wanna buy gta " + gta +
+                    " for the " + pi + " value price" + " because I'm a " + gender);
+        } else {
+            System.out.println("You're not a admin, get out!");
+        }
     }
 }
