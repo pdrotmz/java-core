@@ -6,6 +6,17 @@ public class Variables {
 
         // TODO: Document everything using examples and make it understandable
 
+        // Variables are splits by two types
+        //
+        // THE PRIMITIVES X THE REFERENCES
+        // int                String
+        // double             Array
+        // char               Object
+        // boolean
+
+        // The primitives are directly store at pc's memory (STACK)
+        // Meanwhile the references it's like a collection of primitive types that are referenced (HEAP)
+
         int age = 22;
         int year = 2025;
         int quantity = 1;
