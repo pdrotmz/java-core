@@ -19,5 +19,7 @@ public class Store {
 
         System.out.println("\nYou have bought " + item + "/s");
         System.out.println("Your total is $" + totalPrice);
+
+        read.close();
     }
 }
