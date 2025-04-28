@@ -4,18 +4,37 @@ public class Variables {
 
     public static void main(String[] args) {
 
-        // TODO: Document everything using examples and make it understandable
-
-        // Variables are splits by two types
-        //
-        // THE PRIMITIVES X THE REFERENCES
-        // int                String
-        // double             Array
-        // char               Object
-        // boolean
-
-        // The primitives are directly store at pc's memory (STACK)
-        // Meanwhile the references it's like a collection of primitive types that are referenced (HEAP)
+        /*
+        * Variables are splits by two types
+        *
+        * THE PRIMITIVES X THE REFERENCES
+        *
+        * int                String
+        * double             Array
+        * char               Object
+        * boolean
+        *
+        *
+        * The primitives are directly stored at pc's memory (STACK)
+        * Meanwhile the references it's like a collection of primitive types that are referenced (HEAP)
+        *
+        *
+        * ------------- STACK -------------
+        * - A stack is a type of data structure that deals with variables,
+        *   primarily storing and managing automatic variables in memory,
+        *   with no need for manual allocation or deallocation.
+        *   It is mostly used for managing local variables with functions,
+        *   as well as handling the function call context
+        *
+        *
+        * -------------- HEAP --------------
+        * - A heap is a type of data structure.
+        *   In java heaps refer to a region of memory
+        *   used to allocate some objects.
+        *   The allocation is manual, so it gets a better performance,
+        *   You can work with them using strings, arrays and objects
+        *
+        * */
 
         int age = 22;
         int year = 2025;
